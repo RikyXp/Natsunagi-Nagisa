@@ -88,7 +88,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-EMI_IMG = "https://telegra.ph/file/911c19c5bd0521d63ece9.jpg"
+EMI_IMG = "https://telegra.ph/file/8206c911d201ce160aee6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @FurryChemistry \
@@ -219,13 +219,13 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text=gs(chat.id, "support_chat_link_btn"),
-                                url="https://t.me/FumikaSupportGroup",
+                                url="https://t.me/AkutoSupport", 
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text=gs(chat.id, "add_bot_to_group_btn"),
-                                url="t.me/FumikaRobot?startgroup=new",
+                                url="t.me/akutotapibot?startgroup=new",
                             ),
                         ],
                     ]
@@ -422,7 +422,7 @@ def natsunagi_callback_data(update, context):
                     [
                         InlineKeyboardButton(
                             text=gs(chat.id, "add_bot_to_group_btn"),
-                            url="t.me/FumikaRobot?startgroup=new",
+                            url="t.me/akutotapibot?startgroup=new",
                         ),
                     ],
                 ]
@@ -667,7 +667,7 @@ def donate(update: Update, context: CallbackContext):
             disable_web_page_preview=True,
         )
 
-        if OWNER_ID != 2137482758:
+        if OWNER_ID != 847793223:
             update.effective_message.reply_text(
                 text=gs(chat.id, "donate_fun_text").format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
