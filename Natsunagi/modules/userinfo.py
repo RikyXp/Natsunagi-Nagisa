@@ -328,7 +328,7 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe level for this user is Villain"
         disaster_level_present = True
-    elif user.id == 1482952149:
+    elif user.id == 847793223:
         text += "\n\nCo-Owner Of A Bot. Queen Of @Badboyanim. Bot Name Inspired From Tantei Wa Mou, Shindeiru."
         disaster_level_present = True
 
@@ -389,10 +389,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/CyberMusicProject/45"
+                                "Health", url="https://t.me/fckbiitchhh"
                             ),
                             InlineKeyboardButton(
-                                "Levelling", url="https://t.me/CyberMusicProject/70"
+                                "Levelling", url="https://t.me/fckbiitchhh"
                             ),
                         ],
                     ]
@@ -502,8 +502,8 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[⍙ GitHub](https://github.com/aryazakaria01/Natsunagi-Nagisa) | [⍚ GitLab](https://gitlab.com/aryazakaria01/Natsunagi-Nagisa)\n\n"
-            + "╘══「 by [Dynamic](github.com/aryazakaria01) 」\n",
+            + "\n\n[⍙ GitHub](https://github.com/RikyXp/Natsunagi-Nagisa)\n\n"
+            + "╘══「 by [Akuto](github.com/RikyXp) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
             disable_web_page_preview=True,
@@ -516,9 +516,9 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [GitHub](https://github.com/aryazakaria01/Natsunagi-Nagisa) | ⍚ [GitLab](https://gitlab.com/aryazakaria01/Natsunagi-Nagisa)\n\n"
+                    + "\n\n⍙ [GitHub](https://github.com/RikyXp/Natsunagi-Nagisa)\n\n"
                 )
-                + "╘══「 by [Dynamic](github.com/aryazakaria01) 」\n"
+                + "╘══「 by [Akuto](github.com/RikyXp) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
