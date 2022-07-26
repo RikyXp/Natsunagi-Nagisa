@@ -21,7 +21,7 @@ from Natsunagi.utils.pluginhelp import get_text, progress
 is_downloading = False
 
 
-@app.on_message(filters.command(["vsong", "video"]))
+@app.on_message(filters.command(["vsongong", "videotod"]))
 async def ytmusic(client, message: Message):
     urlissed = get_text(message)
     pablo = await client.send_message(
@@ -84,7 +84,7 @@ async def ytmusic(client, message: Message):
             os.remove(files)
 
 
-@app.on_message(filters.command(["song", f"song@{BOT_USERNAME}"]))
+@app.on_message(filters.command(["songong", f"songong@{BOT_USERNAME}"]))
 def song(client, message):
 
     user_id = message.from_user.id
