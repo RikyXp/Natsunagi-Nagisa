@@ -17,7 +17,7 @@ pm_start_text: |
 grp_start_text: "Ya, saya online!"
 
 pm_help_text: |
-   Halo disana! Nama saya *Akuto*.*.
+   Halo disana! Nama saya *ZEN*.*.
    Saya adalah bot manajemen grup modular dengan beberapa tambahan yang menyenangkan! Lihatlah yang berikut ini untuk mendapatkan ide dari beberapa
    hal-hal yang dapat saya bantu.
    *Utama* perintah yang tersedia:
@@ -29,7 +29,7 @@ pm_help_text: |
       - dalam grup: akan mengarahkan Anda ke pm, dengan semua pengaturan obrolan itu.
     Klik tombol di bawah untuk mendapatkan dokumentasi tentang modul tertentu!
 
-add_bot_to_group_btn: "Tambahkan Akuto"
+add_bot_to_group_btn: "Tambahkan ZEN"
 support_chat_link_btn: "Bantuan"
 updates_channel_link_btn: "Pembaruan"
 src_btn: "Kode sumber"
